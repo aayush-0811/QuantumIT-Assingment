@@ -8,12 +8,24 @@ const Footer = () => {
                 <div className="container text-center">
                     <span className="social-text">Get connected with us on social networks:</span>
                     <div className="social-links">
-                        <a href="#" className="social-link"><i className="fab fa-facebook-f"></i></a>
-                        <a href="#" className="social-link"><i className="fab fa-twitter"></i></a>
-                        <a href="#" className="social-link"><i className="fab fa-google"></i></a>
-                        <a href="#" className="social-link"><i className="fab fa-instagram"></i></a>
-                        <a href="#" className="social-link"><i className="fab fa-linkedin"></i></a>
-                        <a href="#" className="social-link"><i className="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com" className="social-link" target="_blank" rel="noopener noreferrer">
+                            <i className="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.twitter.com" className="social-link" target="_blank" rel="noopener noreferrer">
+                            <i className="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.google.com" className="social-link" target="_blank" rel="noopener noreferrer">
+                            <i className="fab fa-google"></i>
+                        </a>
+                        <a href="https://www.instagram.com" className="social-link" target="_blank" rel="noopener noreferrer">
+                            <i className="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com" className="social-link" target="_blank" rel="noopener noreferrer">
+                            <i className="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.github.com" className="social-link" target="_blank" rel="noopener noreferrer">
+                            <i className="fab fa-github"></i>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -23,11 +35,10 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                             <h6 className="footer-heading">
-                                <i className="fas fa-gem me-3"></i>Company name
+                                <i className="fas fa-gem me-3"></i>Company Name
                             </h6>
                             <p>
-                                Here you can use rows and columns to organize your footer content. Lorem ipsum
-                                dolor sit amet, consectetur adipisicing elit.
+                                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             </p>
                         </div>
 
@@ -61,7 +72,7 @@ const Footer = () => {
             <div className="footer-bottom">
                 <div className="container text-center">
                     © 2024 Copyright:
-                    <a className="footer-bottom-link" href="https://yourwebsite.com">YourWebsite.com</a>
+                    <a className="footer-bottom-link" href="https://yourwebsite.com" target="_blank" rel="noopener noreferrer">YourWebsite.com</a>
                 </div>
             </div>
         </footer>
