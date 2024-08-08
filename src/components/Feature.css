@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.features {
+    padding: 60px 20px;
+    background: #ffff;
+}
+
+.features .text-center {
+    text-align: center;
+}
+
+.features img {
+    max-width: 100%;
+    height: auto;
+}
+
+.features h2 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: #6f42c1;
+    /* Matching the color from the previous header */
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    /* Adding a smooth shadow for vibrancy */
+    transition: color 0.3s ease;
+    /* Smooth transition effect */
+}
+
+.features h2:hover {
+    color: #e95420;
+    /* Optional hover effect for vibrancy */
+}
+
+.features h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.features p {
+    color: #666;
+    font-size: 1em;
+}
+
+.feature-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.feature-image-wrapper img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    clip-path: url(#clip-path);
+    /* Use the clip-path defined in the SVG */
+}
+
+/* Define the SVG clip-path */
+.feature-image-wrapper svg {
+    position: absolute;
+    width: 0;
+    height: 0;
+}

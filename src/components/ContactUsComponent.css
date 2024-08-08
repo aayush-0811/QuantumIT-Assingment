@@ -1,0 +1,100 @@
+.contact-container {
+    padding: 60px 20px;
+    background-color: #fff;
+    /* Light background color for contrast */
+    margin-bottom: 60px;
+    /* Space below the component */
+}
+
+.contact-form {
+    padding: 30px;
+    background-color: #ffffff;
+    /* Clean white background for a fresh look */
+    border-radius: 12px;
+    /* Rounded corners for a modern feel */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    /* Enhanced shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 30px;
+    /* Spacing from the top */
+    margin-bottom: 30px;
+    /* Spacing from the bottom */
+    border: 1px solid #dee2e6;
+    /* Light border for a subtle outline */
+}
+
+.contact-form:hover {
+    transform: scale(1.02);
+    /* Slightly enlarge on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    /* More pronounced shadow */
+}
+
+.contact-form .form-control {
+    border-radius: 8px;
+    /* Rounded corners for input fields */
+    border: 1px solid #ced4da;
+    /* Light border */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 15px;
+    /* Space between fields */
+}
+
+.contact-form .form-control:focus {
+    border-color: #5a1fab;
+    /* Highlight border color on focus */
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+    /* Subtle shadow on focus */
+}
+
+.contact-form .btn-primary {
+    border-radius: 8px;
+    /* Rounded corners for buttons */
+    padding: 12px 24px;
+    /* Increased padding for better clickability */
+    background-color: #5a1fab;
+    /* Primary color for buttons */
+    border: none;
+    /* Remove default border */
+    font-size: 1rem;
+    /* Larger font size for readability */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.contact-image img {
+    width: 80%;
+    height: auto;
+    border-radius: 12px;
+    transition: transform 0.6s ease-in-out, box-shadow 0.6s ease;
+}
+
+.contact-image img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #5a1fab;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    transition: color 0.3s ease;
+}
+
+h1:hover {
+    color: #f57c00;
+}
