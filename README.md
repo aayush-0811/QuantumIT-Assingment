@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Quantum-IT-Assingment
+Developed a sophisticated webpage utilizing Bootstrap and React for a Quantum IT assignment
 
 ## Available Scripts
 
